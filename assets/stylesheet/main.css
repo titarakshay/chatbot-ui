@@ -1,0 +1,318 @@
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Cantarell, Ubuntu, "Open Sans", "Helvetica Neue", sans-serif;
+  letter-spacing: 0.2px;
+  line-height: 1.4;
+  font-size: 16px;
+  padding: 0.5rem;
+}
+
+.bot-outer-box {
+  display: none;
+}
+
+.bot-outer-box {
+  border-radius: 20px;
+  border: 1px solid #bbbaba;
+  height: 47rem;
+  width: 40%;
+  margin: 0 auto;
+  position: relative;
+  -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.19), 0px 2px 2px rgba(0, 0, 0, 0.23);
+          box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.19), 0px 2px 2px rgba(0, 0, 0, 0.23);
+}
+
+.bot-outer-box .heading-bg {
+  background: linear-gradient(123.75deg, #f5821f 1.87%, #ff5c00 120.46%);
+  width: 100%;
+  height: 18rem;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  position: absolute;
+}
+
+.bot-outer-box .heading-bg .heading-text-div {
+  font-weight: 700;
+  color: #fff;
+  position: absolute;
+  top: 3rem;
+  left: 5rem;
+}
+
+.bot-outer-box .heading-bg .heading-text-div h1 {
+  font-size: 1.9rem;
+}
+
+.bot-outer-box .heading-bg .heading-text-div h2 {
+  font-size: 1.4rem;
+}
+
+.bot-outer-box .heading-bg .heading-text-div p {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.bot-outer-box .bot-robot {
+  width: 4rem;
+  height: 4rem;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ff7600), to(#ff5c00));
+  background: linear-gradient(180deg, #ff7600 0%, #ff5c00 100%);
+  border-radius: 5rem;
+  color: #fff;
+  font-size: 2rem;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  top: 12rem;
+  left: 4rem;
+  position: absolute;
+}
+
+.bot-outer-box .question-bg {
+  background: #fff;
+  border-radius: 0.5rem;
+  border: 1px solid #e4e4e4;
+  -webkit-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.05);
+  position: absolute;
+  width: 90%;
+  height: 30rem;
+  left: 5%;
+  top: 14rem;
+}
+
+.bot-outer-box .question-bg .question-heading {
+  color: #2d2d2d;
+  position: absolute;
+  top: 3rem;
+  left: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.bot-outer-box .question-bg .question-heading .question-icon {
+  width: 1.2rem;
+  height: 1.2rem;
+  font-size: 0.7rem;
+  margin-left: 0.8rem;
+}
+
+.bot-outer-box .question-bg .question-icon {
+  background: #f5831f26;
+  color: #ff5c00;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  border-radius: 2rem;
+}
+
+.bot-outer-box .question-bg .single-question-div {
+  width: 90%;
+  border: 1px solid #e1e1e1;
+  border-radius: 0.5rem;
+  -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
+  padding: 1rem 0.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.bot-outer-box .question-bg .single-question-div p {
+  font-size: 0.9rem;
+  color: #2d2d2d;
+}
+
+.bot-outer-box .question-bg .single-question-div .question-icon {
+  margin-right: 0.8rem;
+  font-size: 0.55rem;
+  width: 1rem;
+  height: 1rem;
+}
+
+.bot-outer-box .question-bg .question1 {
+  position: absolute;
+  top: 6rem;
+  left: 5%;
+}
+
+.bot-outer-box .question-bg .question2 {
+  position: absolute;
+  top: 10.5rem;
+  left: 5%;
+}
+
+.bot-outer-box .question-bg .question3 {
+  position: absolute;
+  top: 15rem;
+  left: 5%;
+}
+
+.bot-outer-box .question-bg .question4 {
+  position: absolute;
+  top: 19.5rem;
+  left: 5%;
+}
+
+.bot-outer-box .question-bg .question-btn {
+  position: absolute;
+  top: 25rem;
+  left: 4rem;
+}
+
+.bot-outer-box .question-bg .question-btn button {
+  padding: 0.9rem 2rem;
+  background: #fff;
+  border: 1px solid #d1d1d1;
+  -webkit-box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 6rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.bot-outer-box .question-bg .question-btn button .fas {
+  padding-right: 0.5rem;
+  color: #555555;
+}
+
+@-webkit-keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-30);
+            transform: translateY(-30);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+}
+
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-30);
+            transform: translateY(-30);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+}
+
+.heading-bg-animation {
+  -webkit-animation: moveInBottom 2s ease-out 0.5s;
+          animation: moveInBottom 2s ease-out 0.5s;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+}
+
+.heading-text-div-animation {
+  -webkit-animation: moveInBottom 1.5s ease-out 1.5s;
+          animation: moveInBottom 1.5s ease-out 1.5s;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+}
+
+.bot-robot-animation {
+  -webkit-animation: moveInBottom 0.5s ease-out 1.5s;
+          animation: moveInBottom 0.5s ease-out 1.5s;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+}
+
+.bot-robot-animation1 {
+  -webkit-animation: moveInBottom 0.5s ease-out 3s;
+          animation: moveInBottom 0.5s ease-out 3s;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+}
+
+.question-bg-animation {
+  -webkit-animation: moveInBottom 1s linear 2.5s;
+          animation: moveInBottom 1s linear 2.5s;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+}
+
+.question1-animation {
+  -webkit-animation: moveInBottom 1s linear 3.5s;
+          animation: moveInBottom 1s linear 3.5s;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+}
+
+.question2-animation {
+  -webkit-animation: moveInBottom 1s linear 4.5s;
+          animation: moveInBottom 1s linear 4.5s;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+}
+
+.question3-animation {
+  -webkit-animation: moveInBottom 1s linear 5.5s;
+          animation: moveInBottom 1s linear 5.5s;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+}
+
+.question4-animation {
+  -webkit-animation: moveInBottom 1s linear 6.5s;
+          animation: moveInBottom 1s linear 6.5s;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+}
+
+.btn-animation {
+  -webkit-animation: moveInBottom 1s linear 7s;
+          animation: moveInBottom 1s linear 7s;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+}
+
+.refresh-btn {
+  font-size: 24px;
+  color: black;
+  position: fixed;
+  bottom: 1rem;
+  left: 1rem;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.refresh-btn:hover {
+  color: red;
+}
+
+.popup-close-btn {
+  border: none;
+  outline: none;
+  color: #fff;
+  background: transparent;
+  font-size: 1.5rem;
+  position: absolute;
+  z-index: 99;
+  right: 1rem;
+  top: 1rem;
+}
+
+.popup-open-btn {
+  height: 80px;
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  cursor: pointer;
+  z-index: 1;
+  float: right;
+  font-size: 0;
+}
+/*# sourceMappingURL=main.css.map */

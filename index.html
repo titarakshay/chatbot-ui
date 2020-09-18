@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chatbot</title>
+
+  <!-- Style sheet link -->
+  <link rel="stylesheet" href="./assets/stylesheet/style.css" />
+</head>
+
+<body>
+  <section>
+    <!-- refresh button -->
+    <form>
+      <i onClick="history.go(0)" class="refresh-btn fas fa-redo"><span>refresh</span></i>
+    </form>
+    <div class="bot-outer-box" id="chatBot">
+      <button class="popup-close-btn" onclick="closeBot()">
+        <i class="fas fa-times"></i>
+      </button>
+      <!-- heading section -->
+      <div class="heading-bg heading-bg-animation">
+        <div class="heading-text-div heading-text-div-animation">
+          <h1>IRIS</h1>
+          <h2>Hello</h2>
+          <p>I am Iris, a Virtual Assistant</p>
+          <p>How may I help you</p>
+        </div>
+      </div>
+      <!-- chatbot icon section -->
+      <div class="bot-robot bot-robot-animation">
+        <i class="fas fa-robot"></i>
+      </div>
+      <!-- Faq  section -->
+      <div class="question-bg question-bg-animation">
+        <div class="question-heading">
+          <p>Frequently Asked Question</p>
+          <div class="question-icon">
+            <i class="fas fa-question"></i>
+          </div>
+        </div>
+        <div class="all-question-div">
+          <div class="single-question-div question1 question1-animation">
+            <div class="question-icon">
+              <i class="fas fa-circle"></i>
+            </div>
+            <p>Can I redeem my FB before the original term?</p>
+          </div>
+          <div class="single-question-div question2 question2-animation">
+            <div class="question-icon">
+              <i class="fas fa-circle"></i>
+            </div>
+            <p>How do I pay my Credit card bill?</p>
+          </div>
+          <div class="single-question-div question3 question3-animation">
+            <div class="question-icon">
+              <i class="fas fa-circle"></i>
+            </div>
+            <p>How can I get my Account Statement?</p>
+          </div>
+          <div class="single-question-div question4 question4-animation">
+            <div class="question-icon">
+              <i class="fas fa-circle"></i>
+            </div>
+            <p>what is the tenure of fixed Deposit?</p>
+          </div>
+          <div class="question-btn btn-animation">
+            <button>
+              <i class="fas fa-comments"></i> Start a New Conversation
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- chatbot icon section -->
+      <div class="bot-robot bot-robot-animation1">
+        <i class="fas fa-robot"></i>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- open chatbot button -->
+  <img class="popup-open-btn" onclick="openBot()" src="./assets/media/chat.png" alt="chatbot">
+
+</body>
+
+<!-- javascript  -->
+
+<script>
+  function openBot() {
+    document.getElementById("chatBot").style.display = "block";
+    document.querySelector(".popup-open-btn").style.display = "none";
+  }
+  function closeBot() {
+    document.getElementById("chatBot").style.display = "none";
+    document.querySelector(".popup-open-btn").style.display = "block";
+  }
+</script>
+
+<!-- font awesome link -->
+<script src="https://kit.fontawesome.com/6276e77aae.js" crossorigin="anonymous"></script>
+
+</html>

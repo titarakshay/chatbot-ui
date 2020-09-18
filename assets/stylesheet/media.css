@@ -1,0 +1,133 @@
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .bot-outer-box {
+    width: 100%;
+    height: 100vh;
+  }
+  .bot-outer-box .heading-bg {
+    height: 50%;
+  }
+  .bot-outer-box .heading-bg .heading-text-div h1 {
+    font-size: 6rem;
+  }
+  .bot-outer-box .heading-bg .heading-text-div h2 {
+    font-size: 4.5rem;
+  }
+  .bot-outer-box .heading-bg .heading-text-div p {
+    font-size: 3rem;
+  }
+  .bot-outer-box .bot-robot {
+    top: 32rem;
+    left: 5rem;
+    height: 7rem;
+    width: 7rem;
+    font-size: 4rem;
+  }
+  .bot-outer-box .question-bg {
+    height: 42rem;
+    top: 35rem;
+  }
+  .bot-outer-box .question-bg .all-question-div {
+    position: relative;
+    top: 5rem;
+  }
+  .bot-outer-box .question-bg .all-question-div .question1 {
+    top: 7rem;
+  }
+  .bot-outer-box .question-bg .all-question-div .question2 {
+    top: 12.5rem;
+  }
+  .bot-outer-box .question-bg .all-question-div .question3 {
+    top: 18rem;
+  }
+  .bot-outer-box .question-bg .all-question-div .question4 {
+    top: 23.5rem;
+  }
+  .bot-outer-box .question-bg .all-question-div p {
+    font-size: 1.8rem;
+  }
+  .bot-outer-box .question-bg .all-question-div .question-btn {
+    top: 29rem;
+    left: 4rem;
+  }
+  .bot-outer-box .question-bg .all-question-div .question-btn button {
+    font-size: 1.8rem;
+    padding: 1.9rem 2rem;
+  }
+  .bot-outer-box .question-bg .question-heading {
+    top: 5rem;
+  }
+  .bot-outer-box .question-bg .question-heading p {
+    font-size: 3rem;
+    top: 4rem;
+    left: 3rem;
+  }
+  .bot-outer-box .question-bg .question-heading .question-icon {
+    height: 1.2rem;
+    font-size: 1.8rem;
+    margin-left: 1.8rem;
+    margin-top: 1.5rem;
+  }
+  .refresh-btn {
+    font-size: 3rem;
+  }
+  .popup-open-btn {
+    height: 111px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    padding: 0;
+  }
+  .bot-outer-box {
+    width: 100%;
+    height: 44rem;
+  }
+  .bot-outer-box .question-heading p {
+    font-size: 14px;
+  }
+  .bot-outer-box .question-bg {
+    width: 95%;
+    left: 2.5%;
+    height: 27rem;
+  }
+  .bot-outer-box .question-bg .single-question-div {
+    width: 95%;
+  }
+  .bot-outer-box .question-bg .single-question-div p {
+    font-size: 12px;
+  }
+  .bot-outer-box .question-bg .question1 {
+    left: 2.5%;
+    top: 5.5rem;
+  }
+  .bot-outer-box .question-bg .question2 {
+    left: 2.5%;
+    top: 9.5rem;
+  }
+  .bot-outer-box .question-bg .question3 {
+    left: 2.5%;
+    top: 13.5rem;
+  }
+  .bot-outer-box .question-bg .question4 {
+    left: 2.5%;
+    top: 17.5rem;
+  }
+  .bot-outer-box .question-bg .question-btn {
+    width: 90%;
+    left: 10%;
+    top: 22rem;
+  }
+  .bot-outer-box .question-bg .question-btn button {
+    font-size: 14px;
+  }
+  .refresh-btn {
+    position: relative;
+    margin-top: 1.5rem;
+    margin-left: 0.5rem;
+  }
+  .popup-open-btn {
+    height: 60px;
+  }
+}
+/*# sourceMappingURL=media.css.map */
